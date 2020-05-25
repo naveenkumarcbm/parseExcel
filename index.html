@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+    <title>Parse Excel sheet</title>
+  </head>
+  <body>
+      <h1>Upload file and click on submit</h1>
+    <form>
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile" required/><br /><br />
+      <input value="Submit" type="button" onclick="fileUpload()" />
+      <br />
+      <br />
+      <i>please check the console.</i>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
